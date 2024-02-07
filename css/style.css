@@ -139,5 +139,42 @@ ol {
 }
 
 .ul-items {
+    padding: 20px 0px;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.item-size {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-left: 1px solid white;
+}
+
+.item-size h4 {
+    font-size: 35px;
+    color: white;
+}
+
+.item-size span {
+    font-size: 20px;
+    color: white;
+}
+
+.sezione-1 {
+    color: white;
+    font-size: 40px;
+    margin-left:75px ;
+    margin-top: 100px;
+}
+
+.sezione-2 {
+    color: white;
+    font-size: 40px;
+    margin-left:75px ;
+    margin-top: 50px;
+}
+
+.sezione-2 li {
+    font-size: 10px;
 }
