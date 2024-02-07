@@ -1,0 +1,143 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+
+
+/* utility */
+
+.flex {
+    display: flex;
+}
+
+.bgblack {
+    background-color: black;
+    color: white;
+}
+
+.bggray {
+    background-color: rgb(56, 56, 56);
+}
+
+.bgdarkblue {
+    background-color: rgb(32, 32, 46);
+}
+
+.block {
+    display: block;
+}
+
+.inblock {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.relative {
+    position: relative;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.col-3 {
+    width: calc(3 * 100% / 12);
+}
+
+.col-4 {
+    max-width: calc(4 * 100% / 12);
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.margin-bottom100 {
+    margin-bottom: 100px;
+}
+
+
+/* header sidebar  */
+
+.sidebar-size {
+    flex-shrink: 0;
+    width: 10vw;
+    height: 90vh;   
+}
+
+.main-content {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bottombar-size {
+    width: 100%;
+    height: 10vh;
+}
+
+.bottombar-padding {
+    padding: 20px;
+}
+
+.align-center {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container {
+    height: 100%;
+    color: white;
+}
+
+.content-head {
+    flex-shrink: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(68, 67, 67, 0.322);
+}
+
+.content-body {
+    height: 100%;
+    width: 100%;
+}
+
+.ul-items {
+    width: 100%;
+}
